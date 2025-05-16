@@ -57,7 +57,7 @@ class CustomGaugeView @JvmOverloads constructor(
 
         val oval = RectF(cx-radius, cy-radius, cx+radius, cx+radius)
 
-        canvas.drawArc(oval, 180, 180f, false, paintBackgroud)
+        canvas.drawArc(oval, 180f, 180f, false, paintBackgroud)
 
         //Dibujar los ticks
         // 2) Ticks cada 10°
